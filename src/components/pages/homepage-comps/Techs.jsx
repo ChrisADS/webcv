@@ -9,6 +9,7 @@ import github from "../../../assets/github.png";
 import node from "../../../assets/node.png";
 import nextjs from "../../../assets/nextjs.png";
 import postgres from "../../../assets/postgres.png";
+import mysql from "../../../assets/mysql.png";
 import redux from "../../../assets/redux.png";
 import tailwind from "../../../assets/tailwind.png";
 import { Link as ScrollLink } from "react-scroll";
@@ -40,12 +41,6 @@ const Techs = () => {
       style: "shadow-cyan-400",
     },
     {
-      id: 5,
-      src: vue,
-      title: "Vue",
-      style: "shadow-emerald-500",
-    },
-    {
       id: 6,
       src: tailwind,
       title: "Tailwind CSS",
@@ -56,12 +51,6 @@ const Techs = () => {
       src: node,
       title: "Node JS",
       style: "shadow-lime-400",
-    },
-    {
-      id: 8,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
     },
     {
       id: 9,
@@ -77,15 +66,9 @@ const Techs = () => {
     },
     {
       id: 11,
-      src: postgres,
-      title: "PostgreSQL",
+      src: mysql,
+      title: "MySQL",
       style: "shadow-blue-400",
-    },
-    {
-      id: 12,
-      src: redux,
-      title: "Redux",
-      style: "shadow-violet-700",
     },
   ];
 
@@ -97,9 +80,9 @@ const Techs = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <h2 className="text-4xl font-bold inline pb-1 border-b-4 border-primary-color/40 sm:text-5xl">
-            Technologies
+            Conocimientos
           </h2>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6">Algunos conocimientos aprendidos y en proceso</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-8 text-center py-8 sm:px-0">

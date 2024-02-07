@@ -14,15 +14,15 @@ const About = () => {
                         <h2 className='text-4xl sm:text-5xl font-bold inline border-b-4 border-primary-color/40'>Acerca de mí</h2>
                     </div>
 
-                    <p className="mb-4 py-6">Estudiante de la carrera de Ingeniera de Sistemas e Informática, busco formar parte de una empresa en la que
-                    pueda poner en práctica todos mis conocimientos, que me brinde la oportunidad de alcanzar todas mis metas
-                    trazadas, y que me ofrezca la oportunidad de crecer en el área laboral, personal e intelectual
-                    .</p>
-
+                    <p className="mb-4 py-6">Estudiante de la carrera de Ingeniera de Sistemas e Informática, busco seguir aprendiendo
+                    nuevas tecnologías, para así poder formar parte de una empresa en la que
+                    pueda poner en práctica todos mis conocimientos, y que me brinde la oportunidad de alcanzar todas mis metas
+                    trazadas, y que me ofrezca la oportunidad de crecer en el área laboral, personal e intelectual.</p>
+                    {/*
                     <Link to='/about-me' className='text-black font-semibold text-[16px] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-t from-green-400 to-primary-color cursor-pointer mx-auto md:mx-0 self-end mt-8 hover:scale-110 duration-300'>
-                        See more
+                        ver más
                         <span className=''><MdOutlineKeyboardArrowRight size={25} className='ml-1' /></span>
-                    </Link>
+                    </Link> */}
                 
             </div>
 

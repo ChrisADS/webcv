@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTelegram, FaWhatsappSquare  } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://www.linkedin.com/in/diegotellezc/',
+            href: 'https://www.linkedin.com/in/christopher-dalessandro-delgado-sullca-786114218/',
             style: 'rounded-tr-md'
         },
         {
@@ -23,27 +23,46 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={30} />
                 </>
             ),
-            href: 'https://github.com/diegotellezc'
+            href: 'https://github.com/ChrisADS'
         },
         {
             id: 3,
             child: (
                 <>
-                Mail <HiOutlineMail size={30} />
+                Correo <HiOutlineMail size={30} />
                 </>
             ),
-            href: 'mailto:diegotellezdev@gmail.com'
+            href: 'mailto:crissisullca@gmail.com'
         },
         {
             id: 4,
             child: (
                 <>
-                Resume <BsFillPersonLinesFill size={30} />
+                CV <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/FullStack_Developer_DiegoTellez.pdf',
+            href: '/DelgadoSullca,ChristopherDAlessandro.pdf',
             style: 'rounded-br-md',
             download: true
+        },
+        {
+            id: 5,
+            child: (
+                <>
+                Telegram <FaTelegram size={30} />
+                </>
+            ),
+            href: 'http://t.me/Chrisads',
+        },
+        {
+            id: 6,
+            child: (
+                <>
+                Whatsapp <FaWhatsappSquare  size={30} />
+                </>
+            ),
+            href: 'https://w.app/nTb2Pj',
+            
         }
     ]
 

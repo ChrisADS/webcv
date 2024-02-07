@@ -29,7 +29,7 @@ const MobileSocialLinks = () => {
             id: 3,
             child: (
                 <>
-                    <HiOutlineMail size={20} /> Mail
+                    <HiOutlineMail size={20} /> Correo
                 </>
             ),
             href: 'mailto:diegotellezdev@gmail.com'
@@ -38,7 +38,7 @@ const MobileSocialLinks = () => {
             id: 4,
             child: (
                 <>
-                    <BsFillPersonLinesFill size={20} /> Resume 
+                    <BsFillPersonLinesFill size={20} /> CV 
                 </>
             ),
             href: '/FullStack_Developer_DiegoTellez.pdf',

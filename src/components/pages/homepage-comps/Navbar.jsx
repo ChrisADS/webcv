@@ -7,27 +7,27 @@ const Navbar = () => {
     const links = [
         {
             id: 1,
-            link: "Home"
+            link: "Inicio"
         },
         {
             id: 2,
-            link: "About"
+            link: "Acerca de mí"
         },
         {
             id: 3,
-            link: "Projects"
+            link: "Proyectos"
         },
         {
             id: 4,
-            link: 'Technologies'
+            link: 'Conocimientos'
         },
         {
             id: 5,
-            link: "Education"
+            link: "Educación"
         },
         {
             id: 6,
-            link: "Contact"
+            link: "Contacto"
         }
     ]
 
@@ -54,7 +54,7 @@ const Navbar = () => {
             <div className='flex flex-row gap-4 items-center'>
                 <h1 className='text-[1.1rem] lg:text-[1.3rem] hover:text-primary-color hover:scale-125 duration-500'>
                     <i className='bx bx-code-curly mr-2 text-base'></i>
-                    Diego Téllez
+                    Christopher Delgado
                 </h1>
             </div>
 
